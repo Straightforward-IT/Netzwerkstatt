@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+dist-*/
+web-build/
+coverage/
+public/canvaskit.wasm
+android/
+ios/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example

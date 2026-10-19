@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Netzwerkstatt",
+    "slug": "netzwerkstatt",
+    "version": "0.1.0",
+    "scheme": "netzwerkstatt",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "de.netzwerkstatt.app",
+      "predictiveBackGestureEnabled": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "de.netzwerkstatt.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-status-bar",
+      "expo-splash-screen"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Netzwerkstatt · Graph Sandbox"
+    }
+  }
+}
